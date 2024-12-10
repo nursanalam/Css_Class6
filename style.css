@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+}
+#box1
+{
+    height: 400px;
+    width: cover;
+    border: 1px solid;
+    border-radius: 2px 40px;
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    background-color: darksalmon;
+}
+#bac1
+{
+    height: 300px;
+    width: 300px;
+    background-image: url("card.png");
+    background-repeat: repeat;
+    background-size: cover;
+    
+    border: 1px solid rgb(15, 15, 15);
+    margin-left: 40PX;
+    border-radius: 2px 40px;
+}
+#bac2
+{
+    height: 300px;
+    width: 300px;
+    background-color: khaki;
+    border: 1px solid rgb(44, 43, 41);
+    margin-left: 40PX;
+    border-radius: 40px 2px;
+    
+
+}
+#bac3
+{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border: 1px solid rgb(21, 21, 20);
+    margin-left: 40PX;
+    border-radius: 2px 40px;
+}
+.con1
+{
+    /* color: cornflowerblue; */
+    margin: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(141, 189, 132);
+    border-radius: 10px 30px;
+    width: 200px;
+}
+.helo1
+{
+    color: brown;
+}
+.hello2
+{
+    border: none;
+    height: 20px;
+    width: 70px;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.hello2:hover{
+    color: chartreuse;
+    background-color: blue;
+    font-size: 12px;
+}
+.app1 li
+{
+    background-color: crimson;
+    margin: 5px;
+    padding: 2px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+}
+li:nth-child(odd)
+{
+    background-color: rgb(122, 58, 85);
+}
+li:hover
+{
+    background-color: rgb(18, 213, 14);
+}
+.fo1
+{
+    margin: 30px;
+}
+.gg1
+{
+    margin: 5px;
+    margin-top: 2px;
+    border: none;
+}
+.gg1 input:focus{
+    background-color: rgb(60, 60, 92);
+}
+.ff1
+{
+    color:white;
+    margin-top: 60px;
+    padding: 20px;
+}
+h1::before{
+    content: "Hello";
+    border-top: 2px solid green;
+}
